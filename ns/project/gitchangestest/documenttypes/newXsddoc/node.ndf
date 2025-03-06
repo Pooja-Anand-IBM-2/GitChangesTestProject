@@ -4,16 +4,16 @@
   <record name="record" javaclass="com.wm.util.Values">
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
-    <value name="node_nsName">project.gitchangestest.documenttypes:docTypeRef_bks_BooksForm</value>
+    <value name="node_nsName">project.gitchangestest.documenttypes:newXsddoc</value>
     <value name="node_pkg">GitChangesTestProject</value>
     <record name="node_hints" javaclass="com.wm.util.Values">
       <record name="revisionData" javaclass="com.wm.util.Values">
         <value name="createdBy">poan</value>
         <value name="createdByUserId">a3ce0455b9684da8a300dbf2ea395acb</value>
-        <number name="createdDate" type="Long">1741250629582</number>
+        <number name="createdDate" type="Long">1741250629518</number>
         <value name="lastModifiedBy">poan</value>
         <value name="lastModifiedByUserId">a3ce0455b9684da8a300dbf2ea395acb</value>
-        <number name="lastModifiedDate" type="Long">1741250629582</number>
+        <number name="lastModifiedDate" type="Long">1741250629551</number>
       </record>
     </record>
     <value name="is_public">false</value>
@@ -23,31 +23,24 @@
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
     <value name="schemaDomain">b49331cf783b49e783e62b0fb937ba5e</value>
-    <value name="docTypeDomain">9fd19f1dd00e4eb381e66aedecf9c07a</value>
     <value name="originURI">books.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">book</value>
+        <value name="field_name">bks:books</value>
         <value name="field_type">recref</value>
-        <value name="field_dim">1</value>
-        <value name="field_opt">true</value>
+        <value name="field_dim">0</value>
         <value name="nillable">false</value>
+        <value name="field_xmlns">urn:books</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <value name="is_soap_array_encoding_used">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.gitchangestest.documenttypes:docTypeRef_bks_BookForm</value>
+        <value name="rec_ref">project.gitchangestest.documenttypes:docTypeRef_bks_BooksForm</value>
       </record>
     </array>
-    <record name="schemaType" javaclass="com.wm.util.Values">
-      <value name="xmlns">urn:books</value>
-      <value name="ncName">BooksForm</value>
-    </record>
-    <value name="schemaRegistered">true</value>
     <value name="modifiable">false</value>
     <value name="updateRSD">true</value>
   </record>
